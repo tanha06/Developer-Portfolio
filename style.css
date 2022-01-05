@@ -13,6 +13,7 @@ p{
 }
 section{
                                    display: flex;
+                                   margin-bottom: 100px;
 }
 .half-width{
                                    width: 50%;
@@ -21,7 +22,7 @@ section{
 .half-width img{
                                    width: 75%;
 }
-.hire-button{
+.click-button{
                                    text-decoration: none;
                                    background-color: rgb(255, 160, 122);
                                    padding: 10px 40px;
@@ -30,7 +31,12 @@ section{
                                    font-weight: 700px;
                                    color: white;
 }
-.back-banner{
+.top-banner{
                                    background-image: url(images/top-banner.png);
                                    background-repeat: no-repeat;
+}
+.dream-big{
+                                   background-image: url(images/dream-bg.png);
+                                   background-repeat: no-repeat;
+                                   background-position: right;
 }
